@@ -30,7 +30,6 @@ const SingleMov = (props) => {
                 color="#000"
                 height={100}
                 width={100}
-            //3 secs
             /> :
             <Movie movie={mov} />}
     </div>

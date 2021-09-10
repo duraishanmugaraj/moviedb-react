@@ -20,3 +20,18 @@ h1 {
 .space {
   margin-left: 20px;
 }
+
+@media (max-width: 900px) {
+  img,
+  .cent {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+
+  .bot {
+    padding-left: 50px;
+    padding-bottom: 50px;
+  }
+} ;
