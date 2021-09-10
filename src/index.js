@@ -15,10 +15,10 @@ ReactDOM.render(
     <Router>
         <NavBar />
         <Switch>
-            <Route path="/" exact>
+            <Route path="/oledb/" exact>
                 <App />
             </Route>
-            <Route path="/:id" exact>
+            <Route path="/oledb/:id" exact>
                 <SingleMov />
             </Route>
         </Switch>

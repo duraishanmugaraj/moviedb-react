@@ -7,7 +7,7 @@ import "./NavBar.css"
 
 const NavBar = (props) => {
     return <nav className="navbar navbar-dark bg-dark">
-        <Link to="/" style={{ textDecoration: "none", color: "black" }}>
+        <Link to="/oledb/" style={{ textDecoration: "none", color: "black" }}>
             <div className="container-fluid">
 
                 <span className="navbar-brand mb-0 h1">
