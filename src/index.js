@@ -1,6 +1,7 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
 import {
+    HashRouter,
     BrowserRouter as Router,
     Switch,
     Route
@@ -12,18 +13,18 @@ import NavBar from "./components/NavBar"
 import "./index.css"
 
 ReactDOM.render(
-    <Router>
+    <HashRouter basename='/'>
         <NavBar />
         <Switch>
-            <Route path="oledb/" exact>
+            <Route path="/" exact>
                 <App />
             </Route>
-            <Route path="oledb/:id" exact>
+            <Route path="/:id" exact>
                 <SingleMov />
             </Route>
         </Switch>
 
-    </Router>
+    </HashRouter>
     ,
     document.getElementById('root')
 )
