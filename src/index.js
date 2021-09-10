@@ -11,6 +11,7 @@ import "bootstrap/dist/css/bootstrap.min.css"
 import SingleMov from './components/SingleMov';
 import NavBar from "./components/NavBar"
 import "./index.css"
+import "react-loader-spinner/dist/loader/css/react-spinner-loader.css";
 
 ReactDOM.render(
     <HashRouter basename='/'>
