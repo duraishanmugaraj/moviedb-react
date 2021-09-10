@@ -1,25 +1,35 @@
-import logo from './logo.svg';
-import './App.css';
+import React, { useEffect, useState } from 'react'
+import Cardlist from './components/Cards/Cardlist'
+import SearchField from './components/SearchField'
+
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    const [searchValue, setSearchValue] = useState("Iron Man")
+    const [movieList, setMovieList] = useState([])
+
+
+    const handleSearchValue = (value) => {
+        setSearchValue(value)
+    }
+
+    const movieData = async () => {
+        const url = await fetch("http://www.omdbapi.com/?apikey=56bb3b76&s=" + searchValue)
+        const res = await url.json()
+        setMovieList(await res.Search)
+    }
+
+    useEffect(() => {
+        movieData()
+    }, [searchValue])
+
+    return (
+        <div >
+            <SearchField searchData={handleSearchValue} />
+
+            <Cardlist moviez={movieList} />
+        </div>
+
+    )
 }
 
-export default App;
+export default App
