@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/oledb/static/css/main.ab177238.chunk.css",
+    "main.js": "/oledb/static/js/main.73a05ee7.chunk.js",
+    "main.js.map": "/oledb/static/js/main.73a05ee7.chunk.js.map",
+    "runtime-main.js": "/oledb/static/js/runtime-main.5628e858.js",
+    "runtime-main.js.map": "/oledb/static/js/runtime-main.5628e858.js.map",
+    "static/css/2.818011ed.chunk.css": "/oledb/static/css/2.818011ed.chunk.css",
+    "static/js/2.416cd0c7.chunk.js": "/oledb/static/js/2.416cd0c7.chunk.js",
+    "static/js/2.416cd0c7.chunk.js.map": "/oledb/static/js/2.416cd0c7.chunk.js.map",
+    "index.html": "/oledb/index.html",
+    "static/css/2.818011ed.chunk.css.map": "/oledb/static/css/2.818011ed.chunk.css.map",
+    "static/css/main.ab177238.chunk.css.map": "/oledb/static/css/main.ab177238.chunk.css.map",
+    "static/js/2.416cd0c7.chunk.js.LICENSE.txt": "/oledb/static/js/2.416cd0c7.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.5628e858.js",
+    "static/css/2.818011ed.chunk.css",
+    "static/js/2.416cd0c7.chunk.js",
+    "static/css/main.ab177238.chunk.css",
+    "static/js/main.73a05ee7.chunk.js"
+  ]
+}
