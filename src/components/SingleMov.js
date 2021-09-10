@@ -14,7 +14,7 @@ const SingleMov = (props) => {
     }, [])
 
     const movData = async (id) => {
-        const url = await fetch("http://www.omdbapi.com/?apikey=56bb3b76&i=" + id)
+        const url = await fetch("https://www.omdbapi.com/?apikey=56bb3b76&i=" + id)
         const res = await url.json()
         setMov(res)
     }
