@@ -2,6 +2,7 @@ import React from 'react';
 import "./Movie.css"
 
 const Movie = (props) => {
+
     const url = "https://downloadwap.com/thumbs2/wallpapers/p2ls/2019/abstract/45/c64ba65313143652.jpg"
     const m = props.movie
     const img = m.Poster
