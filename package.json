@@ -1,6 +1,6 @@
 {
-  "homepage": "https://duraishanmugaraj.github.io/MobieDB-ReactJS/",
-  "name": "olemdb",
+  "homepage": "https://duraishanmugaraj.github.io/moviedb-react/",
+  "name": "moviedb-react",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
