@@ -2,7 +2,7 @@
 
 MovieDB-ReactJS is a movie database and search engine made with ReactJS and powered by OMDB API
 
-Checkout -> https://duraishanmugaraj.github.io/MobieDB-ReactJS/
+Checkout -> https://duraishanmugaraj.github.io/moviedb-react/#/
 
 ## Features
 

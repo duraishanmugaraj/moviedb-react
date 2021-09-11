@@ -8,12 +8,12 @@ const def = [
     "Poster": "https://m.media-amazon.com/images/M/MV5BOTBmZTA3MWMtOTFkMy00MjI4LTk4ZjEtZmQ1YjI4MzJhMzA4XkEyXkFqcGdeQXVyMTI1NDEyNTM5._V1_SX300.jpg"
   },
   {
-    "Title": "Petta",
-    "Year": "2019",
-    "imdbID": "tt8959820",
+    "Title": "Annaatthe",
+    "Year": "2021",
+    "imdbID": "tt11253090",
     "Type": "movie",
-    "Poster": "https://m.media-amazon.com/images/M/MV5BN2MwZWQxY2UtNTFjNy00YWNjLWFmZDgtYjA0YzI3OTdhNTA4XkEyXkFqcGdeQXVyODIwMDI1NjM@._V1_SX300.jpg"
-  },
+    "Poster": "https://m.media-amazon.com/images/M/MV5BNGY1YTM2ZGQtY2YyMi00ZDkzLThkZDItNTFmY2JjM2RmZjg3XkEyXkFqcGdeQXVyODEyNjEwMDk@._V1_SX300.jpg"
+    },
   {
     "Title": "Master",
     "Year": "2021",
