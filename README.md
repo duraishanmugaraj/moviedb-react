@@ -1,4 +1,4 @@
-# MobieDB-ReactJS
+# MovieDB-ReactJS
 
 MovieDB-ReactJS is a movie database and search engine made with ReactJS and powered by OMDB API
 
