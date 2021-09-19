@@ -30,8 +30,6 @@ After a fresh `git clone`, to install all node dependencies, use
 npm install
 ```
 
-If you do not have any key for TMDB API, get an API key and update the `API_Key` value in `src/config.js` file.
-
 To start the development server, use
 
 ```shell
