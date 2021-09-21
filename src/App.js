@@ -50,7 +50,7 @@ function App() {
         <div >
             <SearchField searchData={handleSearchValue} />
             {isLoading ? <Loader className="center" type="Puff" color="#000" height={100} width={100} /> :
-                (movNotFound && searchValue !== "" ? <h1 className="not"> Movie Not Found !</h1> : <Cardlist moviez={movieList} />)}
+                (movNotFound && searchValue !== "" ? <h1 className="not height"> Movie Not Found !</h1> : <Cardlist moviez={movieList} />)}
         </div>
 
     )

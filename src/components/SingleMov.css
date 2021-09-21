@@ -1,13 +1,16 @@
 .center {
+  padding-top: 100px;
   display: flex;
   justify-content: center;
-  align-items: center;
-  height: 200px;
+  height: 100vh;
 }
 
 .not {
   color: red;
-  padding-top: 50px;
+  padding: 50px 0 0 0;
+  text-align: center;
+}
 
-  margin-left: 120px;
+.height {
+  height: 100vh;
 }

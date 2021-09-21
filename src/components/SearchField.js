@@ -11,13 +11,11 @@ function SearchField(props) {
     }
 
     return (
-        <form>
-            <div className="input-group">
-                <input type="text" onChange={handleTextChange} className="form-control rounded" placeholder="Search" aria-label="Search"
-                    aria-describedby="search-addon" />
-            </div>
-        </form>
-
+        <div className="search-box d-flex align-items-center justify-content-center">
+            <fieldset fieldset class="field-container" >
+                <input onChange={handleTextChange} type="text" placeholder="Search..." class="field" />
+            </fieldset>
+        </div>
     )
 }
 
