@@ -5,7 +5,7 @@ MovieDB-ReactJS is a movie database and search engine made with ReactJS and powe
 Checkout -> https://duraishanmugaraj.github.io/moviedb-react/#/
 
 ![image](https://user-images.githubusercontent.com/68941801/134186169-73a97d51-b558-4484-9fd7-59e12fa56d99.png)
-![image](https://user-images.githubusercontent.com/68941801/132942587-e3613f6a-cdac-4c35-900e-39dfccb5b4d2.png)
+![image](https://user-images.githubusercontent.com/68941801/134210660-09d62a8f-c60a-462b-b888-6d8a5e5dca1c.png)
 
 
 
