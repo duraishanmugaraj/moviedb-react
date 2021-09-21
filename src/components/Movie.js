@@ -10,14 +10,14 @@ const Movie = (props) => {
     if (m.Ratings.length > 0) {
         rat = m.Ratings[0].Value
     }
-    return <div id="root" className="container">
+    return <div id="root" className="fluid-container">
 
         <div className="row mt-5">
-            <div className="col-lg-4">
+            <div className="col-lg-4 text-center">
                 <img width={img === "N/A" ? "300" : ""} height={img === "N/A" ? "400" : ""} src={img === "N/A" ? url : img} alt={m.Title} />
 
                 <div className="cent">
-                    <h1 className="mt-4"> <i className="bi bi-star-fill"> </i>{rat && rat}</h1>
+                    <h1 className="mt-4 start"><i className="bi bi-star-fill"> </i>{rat}</h1>
                 </div>
             </div>
             <div className="col-lg-8 bot">
@@ -29,8 +29,8 @@ const Movie = (props) => {
                 <h4 >{m.Genre}</h4>
 
                 <div className="containter">
-                    <div className="row">
-                        <p className="mt-4 col-8">{m.Plot}</p>
+                    <div className="row ">
+                        <p className="mt-4 plot d-flex justify-content-center">{m.Plot}</p>
                     </div>
                 </div>
             </div>

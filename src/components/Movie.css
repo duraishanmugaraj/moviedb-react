@@ -1,5 +1,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@700&display=swap");
-
+.fluid-container {
+  margin: 100px;
+}
+.bot {
+  padding-left: 50px;
+}
 h2 {
   font-family: "Ubuntu", sans-serif;
   font-weight: 500;
@@ -14,14 +19,28 @@ h4 {
   font-style: italic;
 }
 h1 {
-  padding-left: 70px;
   font-size: 30px;
 }
 .space {
-  margin-left: 20px;
+  margin-left: 0px;
+  text-align: center;
+  align-items: center;
+}
+.row .center-img {
+  text-align: center;
+  align-items: center;
+}
+.containter .plot {
+  width: 75%;
 }
 
-@media (max-width: 900px) {
+@media (max-width: 970px) {
+  .containter .plot {
+    text-align: center;
+    align-items: center;
+    width: 100%;
+    padding: 0 40px 0 40px;
+  }
   img,
   .cent {
     display: block;
@@ -31,7 +50,16 @@ h1 {
   }
 
   .bot {
-    padding-left: 50px;
+    padding-left: 0px;
     padding-bottom: 50px;
+    text-align: center;
   }
-} ;
+  .fluid-container {
+    margin: 10px;
+  }
+  .start {
+    padding-left: 0;
+    text-align: center;
+    padding-bottom: 10px;
+  }
+}
