@@ -1,8 +1,13 @@
-# MobieDB-ReactJS
+# MovieDB-ReactJS
 
 MovieDB-ReactJS is a movie database and search engine made with ReactJS and powered by OMDB API
 
 Checkout -> https://duraishanmugaraj.github.io/moviedb-react/#/
+
+![image](https://user-images.githubusercontent.com/68941801/134186169-73a97d51-b558-4484-9fd7-59e12fa56d99.png)
+![image](https://user-images.githubusercontent.com/68941801/132942587-e3613f6a-cdac-4c35-900e-39dfccb5b4d2.png)
+
+
 
 ## Features
 
@@ -24,8 +29,6 @@ After a fresh `git clone`, to install all node dependencies, use
 ```shell
 npm install
 ```
-
-If you do not have any key for TMDB API, get an API key and update the `API_Key` value in `src/config.js` file.
 
 To start the development server, use
 
