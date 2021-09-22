@@ -9,20 +9,20 @@ Checkout -> https://duraishanmugaraj.github.io/moviedb-react/#/
 
 
 
-## Features
+## Features ✨
 
-- Discover the currently popular movies.
-- Search movies using movie name in homepage.
-- View movie storyline, release date , watch time , information etc. from movie pages.
+🔥 Discover the currently popular movies. <br>
+🔥 Search movies using movie name in homepage. <br>
+🔥 View movie storyline, release date , watch time , information etc. from movie pages. <br>
+ 
+## Technologies used 🛠️
 
-## Tools Used
+✔️ [Create React App](https://create-react-app.dev/) to bootstrap the application <br>
+✔️ [OMDB](http://www.omdbapi.com/) to fetch data from <br>
+✔️ [React Router](https://reactrouter.com/web/guides/quick-start) to make the application routes <br>
+✔️ [Bootstrap](https://react-icons.netlify.com/#/) for Designing the webpage <br>
 
-- [Create React App](https://create-react-app.dev/) to bootstrap the application
-- [OMDB](http://www.omdbapi.com/) to fetch data from
-- [React Router](https://reactrouter.com/web/guides/quick-start) to make the application routes
-- [Bootstrap](https://react-icons.netlify.com/#/) for Designing the webpage
-
-## Developer Instruction
+## Developer Instruction ✏️
 
 After a fresh `git clone`, to install all node dependencies, use
 
@@ -41,3 +41,11 @@ To deploy at `github-pages` environmet, use
 ```shell
 npm run deploy
 ```
+
+## Deployment 📦
+
+- Once you are done with your setup, you need to put your website online!
+- I highly recommend using [Github Pages](https://create-react-app.dev/docs/deployment/#github-pages) to achieve this the easiest way.
+
+## Show your support 🙌
+Give a ⭐️ if this project helped you! 
